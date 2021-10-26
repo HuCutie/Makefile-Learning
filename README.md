@@ -20,7 +20,7 @@ Using all target to run multiple targets.
 
 **2. Multiple targets**  
 When there are multiple targets for one rule, the commands will run for each target.  
-`$@ ` is an automatic variable that contains the target name.  
+`$@ ` is an automatic variable that contains the file name.  
 
 ## Chapter 2 Automatic Variables and Wildcards  
 **1. Automatic variables**  
