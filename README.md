@@ -24,6 +24,8 @@ When there are multiple targets for one rule, the commands will run for each tar
 
 ## Chapter 2 Automatic Variables and Wildcards  
 **1. Automatic variables**  
-`$@ ` represents the first target.  
-`$? ` represents all newer targets.  
-`$^ ` represents all targets.
+`$@ ` represents the file name.  
+`$? ` represents the prerequisites newer than the target.  
+`$< ` represents first target.  
+`$^ ` represents all targets.  
+`$% ` represents the target member.  
