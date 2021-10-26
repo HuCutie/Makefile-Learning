@@ -14,7 +14,7 @@ Using `#` in an indepennt line as the comment symbol.
 Variables can only be strings.  
 Reference variables using `\$()` or `\${}`.
 
-# Chapter 1 Targets
+## Chapter 1 Targets
 **1. All target**  
 Using all target to run multiple targets.  
 
