@@ -34,4 +34,4 @@ When there are multiple targets for one rule, the commands will run for each tar
 
 **2. Wildcard**  
 `* ` searches your file system for matching filenames.  
-`% ` 
+`% ` matches one or more charactor just like regular expressions.  
