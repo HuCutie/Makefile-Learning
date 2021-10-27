@@ -1,21 +1,12 @@
-files = file1 file2
-x = dude
+a = 1
+b = 2
 
-all: some_file
-	echo $(x)
-	echo ${x}
+A := $(a)
+B  = $(b)
 
-	echo $x
-# Bad example, but works
+a = 10
+b = 20
 
-some_file: $(files)
-	echo "Look at this variable: " $(files)
-	touch some_file
-
-file1:
-	touch file1
-file2:
-	touch file2
-
-clean:
-	rm -f file1 file2 some_file
+hello:
+	echo $(A)
+	echo $(B)

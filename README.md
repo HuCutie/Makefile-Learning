@@ -12,7 +12,9 @@ Using ` # ` in an indepennt line as the comment symbol.
 
 **3. Variables**  
 Variables can only be strings.  
-Reference variables using `\$() ` or `\${} `.
+Reference variables using `\$() ` or `\${} `.  
+`:=` : variables defined with `:= ` are expanded once.  
+`+ ` : variables defined with `= ` are expanded when they are used.  
 
 ## Chapter 1 Targets
 **1. All target**  
@@ -29,3 +31,7 @@ When there are multiple targets for one rule, the commands will run for each tar
 `$< ` represents first target.  
 `$^ ` represents all targets.  
 `$% ` represents the target member.  
+
+**2. Wildcard**  
+`* ` searches your file system for matching filenames.  
+`% ` 
